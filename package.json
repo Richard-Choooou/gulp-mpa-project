@@ -1,0 +1,44 @@
+{
+  "name": "gulp-mpa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp --version",
+    "task": "gulp --tasks",
+    "build": "gulp build",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richard-Choooou/gulp-mpa-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richard-Choooou/gulp-mpa-project/issues"
+  },
+  "homepage": "https://github.com/Richard-Choooou/gulp-mpa-project#readme",
+  "devDependencies": {
+    "@types/react-dom": "^16.9.8",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-processhtml": "^1.2.0",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "requirejs": "^2.3.6"
+  }
+}
